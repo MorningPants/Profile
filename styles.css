@@ -1,23 +1,71 @@
-*{
-    margin:0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Antic Slab", serif;
 }
 
-h1{
-    color:white;
-    background-color: black;
-    padding: 3px;
+h1 {
+  color: white;
+  background-color: black;
+  padding: 3px;
+  display: flex;
+  justify-content: center;
 }
 
-h2{
-    padding: 3px;
+h2 {
+  padding: 3px;
+  display: flex;
+  justify-content: center;
 }
 
-ul{
-    display: flex;
-    margin: 20px;
+p {
+  display: flex;
+  flex-direction: column;
+    align-items: center;}
+
+.andyPhoto {
+  width: 30vw;
 }
 
-li{
-    margin: 0 20px;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  background-color: #333;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
 }
